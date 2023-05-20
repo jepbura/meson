@@ -2,8 +2,8 @@
 
 cpu_arch="$(uname -m)"
 echo "cpu_arch=$cpu_arch"
-AMD="https://staticassets.meson.network/public/meson_cdn/v3.1.18/meson_cdn-linux-amd64.tar.gz"
-ARM="https://staticassets.meson.network/public/meson_cdn/v3.1.18/meson_cdn-linux-arm64.tar.gz"
+AMD="https://staticassets.meson.network/public/meson_cdn/v3.1.19/meson_cdn-linux-amd64.tar.gz"
+ARM="https://staticassets.meson.network/public/meson_cdn/v3.1.19/meson_cdn-linux-arm64.tar.gz"
 
 if [ "${cpu_arch}" = "x86_64" ]; then
 DOWNLOADLINK=$AMD
