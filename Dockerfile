@@ -20,6 +20,8 @@ USER ubuntu
 WORKDIR /myApp
 COPY . .
 
+ENV CACHE_SIZE=30
+
 RUN sudo chmod 777 ./meson_install.sh
 CMD ./meson_install.sh ; sleep infinity
 

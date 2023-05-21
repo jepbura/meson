@@ -29,7 +29,7 @@ sudo tar -zxf $FILENAME &&
 sudo rm -f $FILENAME &&
 cd ./meson_cdn* &&
 sudo ./service install meson_cdn  &&
-sudo ./meson_cdn config set --token=$TOKEN --https_port=$PORT --cache.size=30 &&
+sudo ./meson_cdn config set --token=$TOKEN --https_port=$PORT --cache.size=$CACHE_SIZE &&
 sleep 30 && echo ' ____   ___  _   _ _____
 |  _ \ / _ \| \ | | ____|
 | | | | | | |  \| |  _|

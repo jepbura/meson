@@ -9,6 +9,7 @@ Variable | Description | Optional
 -------- | ----------- | --------
 TOKEN | Your token on Meson | no
 PORT | Specify the port for Meson | no
+CACHE_SIZE | Your system cache size | 30
 
 ## For example
 
