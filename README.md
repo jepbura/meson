@@ -10,6 +10,10 @@ Variable | Description | Optional
 TOKEN | Your token on Meson | no
 PORT | Specify the port for Meson | no
 
+## For example
+
+`docker run -d -p 9222:9222 -e TOKEN=xxxxxxxxx -e PORT=9222 --name meson jepbura/meson:latest`
+
 ## Docker hub
 
 My Docker at Docker Hub: [jepbura/meson](https://hub.docker.com/r/jepbura/meson/)
